@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etud-Admin</title>
+    <!-- Bootstrap Css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="../dist/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex align-items-center justify-content-center">
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-center">
+        <!-- Main Card Start-->
+        <div class="card col-10 col-md-9 col-lg-8 col-xl-7 login-card">
+          <div class="row">
+            <!-- Form Section Start -->
+            <div class="col-sm-12 col-md-6 bg-yellow auth-form signup-form">
+                <a href="./login.html" class="d-flex align-items-center back-btn">
+                    <img src="../dist/svg/backIcon.svg"/> Back </a
+                  >
+                  <h2>Create your ETUDib Account</h2>
+                  <form action="./authcode.html">
+                    <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/userInputIcon.svg" />
+                        <input type="text"  placeholder="First and Last name">
+                      </div>
+                      <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/emailInputIcon.svg" />
+                        <input type="email"  placeholder="Email">
+                      </div>
+                      <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/passwordInputIcon.svg" />
+                        <input type="password" placeholder="Password">
+                      </div>
+                      <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/passwordInputIcon.svg" />
+                        <input type="password" placeholder="Confirm Password">
+                      </div>
+                      <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/phoneInputIcon.svg" />
+                        <input type="tel" placeholder="Mobile Number">
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div class="custom-radio">
+                            <input type="radio" id="company-radio" name="category" value='company'>
+                            <label for="company-radio">
+                                <span></span>
+                                Company
+                            </label>
+                        </div>
+                        <div class="custom-radio">
+                            <input type="radio" id="Individual" name="category" value="individual">
+                            <label for="Individual">
+                                <span></span>
+                                Individual
+                            </label>
+                        </div>
+                      </div>
+
+                      <div class="d-none align-items-center input " id="company-name">
+                        <img src="../dist/svg/buildingInputIcon.svg" />
+                        <input type="text" placeholder="Company Name">
+                      </div>
+                      <button type="submit" class="btn w-100">Next</button>
+                  </form>
+
+                  <p>By continuing, you agree to Pinterest's <a href="#"> Terms of Services</a>  </p>
+                  <p>and acknowledge you've read our <a href="#"> Privacy Policy</a>  </p>
+            </div>
+            <!-- Form Section End -->
+            <!-- Images Section Start -->
+            <div class="col-6 bg-gray-primary auth-img position-relative d-none d-md-block">
+                <img src="../dist/svg/lgApartment.svg" class="position-absolute lg-apartment" /> 
+                <img src="../dist/svg/towerCrain.svg" class="position-absolute tower-crain"/> 
+                <img src="../dist/svg/xsApartment.svg" class="position-absolute xs-apartment"/> 
+                <img src="../dist/svg/xsShadowApartment.svg" class="position-absolute xs-shadow-apartment"/> 
+                <img src="../dist/svg/mdApartment.svg" class="position-absolute md-apartment"/> 
+                <img src="../dist/svg/mdShadowApartment.svg" class="position-absolute md-ahadow-apartment"/> 
+                <img src="../dist/svg/tvApartment.svg" class="position-absolute tv-apartment"/> 
+                <img src="../dist/svg/shadowTvApartment.svg" class="position-absolute shadow-tv-apartment"/> 
+                <img src="../dist/svg/smApartment.svg" class="position-absolute sm-apartment"/> 
+            </div>
+            <!-- Images Section End -->
+
+           
+          </div>
+        </div>
+        <!-- Main Card End-->
+
+      </div>
+    </section>
+    <!-- Bootstrap popperjs -->
+    <script src="../dist/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="../dist/js/jquery.js"></script>
+    <!-- Custom etud Js -->
+    <script src="../dist/js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<svg id="Component_80_1" data-name="Component 80 – 1" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <rect id="Rectangle_199" data-name="Rectangle 199" width="43" height="43" rx="4" fill="#5d5744"/>
+  <g id="Group_160" data-name="Group 160" transform="translate(8.402 14.013)">
+    <g id="Group_158" data-name="Group 158" transform="translate(0)">
+      <path id="Path_160" data-name="Path 160" d="M-959.862,1698.766a8.139,8.139,0,0,1-8.13-8.13,8.139,8.139,0,0,1,8.13-8.131,8.084,8.084,0,0,1,4.8,1.564l-1.6,2.19a5.387,5.387,0,0,0-3.2-1.043,5.425,5.425,0,0,0-5.419,5.419,5.425,5.425,0,0,0,5.419,5.419,5.429,5.429,0,0,0,5.253-4.087l-5.247.024-.012-2.711,8.136-.037v1.362A8.146,8.146,0,0,1-959.862,1698.766Z" transform="translate(967.992 -1682.505)" fill="#ffc200"/>
+    </g>
+    <g id="Group_159" data-name="Group 159" transform="translate(19.788 4.878)">
+      <rect id="Rectangle_200" data-name="Rectangle 200" width="7.049" height="2.711" transform="translate(0 2.169)" fill="#ffc200"/>
+      <rect id="Rectangle_201" data-name="Rectangle 201" width="7.049" height="2.711" transform="translate(4.88 0) rotate(90)" fill="#ffc200"/>
+    </g>
+  </g>
+</svg>

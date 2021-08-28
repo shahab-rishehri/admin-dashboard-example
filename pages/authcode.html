@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etud-Admin</title>
+    <!-- Bootstrap Css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="../dist/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex align-items-center justify-content-center">
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-center">
+        <!-- Main Card Start-->
+        <div class="card col-10 col-md-9 col-lg-8 col-xl-7 login-card">
+          <div class="row">
+            <!-- Form Section Start -->
+            <div class="col-sm-12 col-md-6 bg-yellow auth-form d-flex align-items-center justify-content-center flex-column authcode-form">
+                <img src="../dist/svg/authCodeLogo.svg"/>
+                  <h2>Enter Confirmation Code</h2>
+                  <p class="auth-code-message text-center text-white">Enter the confirmation code we sent
+                    to Email@Example.com OR your 091xxxxx.</p>
+
+                    <a href="#" class="resend-code">Resend Code</a>
+                  <form class="w-100" action="./completeprofile.html">
+                    <div class="d-flex align-items-center input">
+                        <img src="../dist/svg/confirmationCode.svg" />
+                        <input type="tel"  placeholder="Confirmation Code">
+                      </div>
+
+                      <button type="submit" class="btn w-100">Next</button>
+                  </form>
+                  <p class="align-self-start">Have an Account? <a href="./login.html"> Sign In</a>  </p>
+
+            </div>
+            <!-- Form Section End -->
+
+            <!-- Images Section Start -->
+            <div class="col-6 bg-gray-primary authcode-img position-relative d-none d-md-block">
+              <div class="first-step-img">
+                <img src="../dist/svg/gearLg.svg" class="position-absolute lg-gear" /> 
+                <img src="../dist/svg/monitor.svg" class="position-absolute monitor"/> 
+                <img src="../dist/svg/authCode.svg" class="position-absolute authcode-img"/> 
+                <img src="../dist/svg/gearMd.svg" class="position-absolute md-gear"/> 
+                <img src="../dist/svg/gearSm.svg" class="position-absolute sm-gear-left"/> 
+                <img src="../dist/svg/gearSm.svg" class="position-absolute sm-gear-right"/> 
+              </div>
+            </div>
+            <!-- Images Section End -->
+           
+          </div>
+        </div>
+        <!-- Main Card End-->
+      </div>
+    </section>
+    <!-- Bootstrap popperjs -->
+    <script src="../dist/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

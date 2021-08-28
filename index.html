@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etud-Admin</title>
+    <!-- Bootstrap Css -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="./dist/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid position-relative">
+      <div class="row justify-content-center py-3 dashboard">
+        <!-- Main Card Start-->
+        <div class="col-11 ">
+          <div class="card">
+          <div class="row">
+            <!-- Navigation Menu Icon -->
+            <label for="menu-icon" class="menu-icon-button d-lg-none position-fixed">
+              <span></span>
+            </label>
+              <input type="checkbox" id='menu-icon' class="d-none menu-icon-checkbox">
+              
+              <!-- SideBar Navigation Start -->
+            <div class="col-3 side-bar">
+
+              <img src="./dist/svg/etudLogo.svg" alt="">
+              <div class="d-flex flex-column align-items-center">
+              <figure><img src="./dist/img/user-picture.png" alt="profile"></figure>
+              <p>Shahab rishehri</p>
+              <a href="./pages/editProfile.html">Edit profile</a>
+            </div>
+            </div>
+              <!-- SideBar Navigation End -->
+
+            <!-- Main Content Start -->
+            <div class="col-12 col-lg-9 content px-4">
+              <div class="row pt-3 g-3">
+
+                <!-- Summery Cards Start -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card custom-card summery">
+                  <div class="header d-block">
+                    <p>MY opportunities</p>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                      <img src="./dist/svg/handWhite.svg">
+                      <p>4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card custom-card summery">
+                  <div class="header d-block">
+                    <p>MY requests</p>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                      <img src="./dist/svg/requestIcon.svg">
+                      <p>2</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card custom-card summery">
+                  <div class="header d-block">
+                    <p>Public opportunities</p>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                      <img src="./dist/svg/opportunities.svg">
+                      <p>20</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card custom-card summery">
+                  <div class="header d-block">
+                    <p>Experts</p>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                      <img src="./dist/svg/expertIcon.svg">
+                      <p>50</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- Summery Cards End -->
+
+                <!-- Expert Card Start -->
+              <div class="col-12 col-xl-7">
+                <div class="card custom-card">
+                  <div class="header">
+                    <p>Experts</p>
+                  </div>
+                  <div class="body table-responsive">
+                    <table>
+                      <tr class="text-center">
+                        <th>Image</th>
+                        <th>Full Name</th>
+                        <th>Post</th>
+                        <th>Company Name</th>
+                        <th>Activity Type</th>
+                        <th>Register Date</th>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td><img src="./dist/img/user-1.png" alt="user-1"></td>
+                        <td>Razie Akhgar</td>
+                        <td>Boss</td>
+                        <td>SAZEHA</td>
+                        <td>Civil</td>
+                        <td>1400/04/10</td>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td><img src="./dist/img/user-2.png" alt="user-2"></td>
+                        <td>Ahmad Zarab</td>
+                        <td>Technical Boss</td>
+                        <td>DELTA</td>
+                        <td>Softwate</td>
+                        <td>1400/04/06</td>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td><img src="./dist/img/user-3.png" alt="user-3"></td>
+                        <td>Hanie Hashemi</td>
+                        <td>Contractor</td>
+                        <td>SAMA</td>
+                        <td>Civil</td>
+                        <td>1400/04/01</td>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td><img src="./dist/img/user-4.png" alt="user-4"></td>
+                        <td>Nima Memar</td>
+                        <td>Boss</td>
+                        <td>BETON SAZE</td>
+                        <td>Civil</td>
+                        <td>1400/03/20</td>
+                      </tr>
+
+                      <tr class="text-center">
+                        <td><img src="./dist/img/user-5.png" alt="user-5"></td>
+                        <td>Maral Shahbazi</td>
+                        <td>Analyzer</td>
+                        <td>MAHAN SYSTEM</td>
+                        <td>IT</td>
+                        <td>1400/03/19</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+                <!-- Expert Card End -->
+
+                <!-- Chart Card Start -->
+              <div class="col-12 col-lg-6 col-xl-5">
+                <div class="card custom-card">
+                  <div class="header">
+                    <p>Chart</p>
+                  </div>
+                  <div class="body position-relative chartjs">
+                    <canvas id="myChart" ></canvas>
+
+                  </div>
+                  </div>
+                  </div>
+                <!-- Chart Card End -->
+
+                <!-- Recent Request Card Start -->
+                  <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="card custom-card">
+                      <div class="header">
+                        <p>Recent requests</p>
+                      </div>
+                      <div class="body table-responsive">
+                        <table>
+                          <tr class="text-center">
+                            <th>Title</th>
+                            <th>Specialization required</th>
+                            <th>Services required</th>
+                            <th>Registration Date</th>
+                          </tr>
+    
+                          <tr class="text-center">
+                            <td>Construction
+                              of a hospital</td>
+                            <td>Contractor</td>
+                            <td>0 to 100</td>
+                            <td>1400/04/10</td>
+                          </tr>
+
+                          <tr class="text-center">
+                            <td>Construction
+                              of a hospital</td>
+                            <td>Contractor</td>
+                            <td>0 to 100</td>
+                            <td>1400/04/10</td>
+                          </tr>
+
+                          <tr class="text-center">
+                            <td>Construction
+                              of a hospital</td>
+                            <td>Contractor</td>
+                            <td>0 to 100</td>
+                            <td>1400/04/10</td>
+                          </tr>
+
+                          <tr class="text-center">
+                            <td>Construction
+                              of a hospital</td>
+                            <td>Contractor</td>
+                            <td>0 to 100</td>
+                            <td>1400/04/10</td>
+                          </tr>
+    
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Recent Request Card End -->
+
+                 
+              </div>
+              <br />
+            </div>
+            <!-- Main Content End -->
+          </div>
+        </div>
+      </div>
+        <!-- Main Card End -->
+
+      </div>
+    </div>
+    <!-- Bootstrap popperjs -->
+    <script src="./dist/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="./dist/js/jquery.js"></script>
+    <!-- Chart Js -->
+    <script src="./plugins/chart.min.js"></script>
+    <!-- Jquery Ui datepicker -->
+    <script src="./dist/js/jquery-ui.js"></script>
+    <!-- Custom etud Js -->
+    <script src="./dist/js/custom.js"></script>
+
+    <script>
+     
+      </script>
+  </body>
+</html>

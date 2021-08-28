@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etud-Admin</title>
+    <!-- Bootstrap Css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Jquery-ui DatePicker Css -->
+    <link href="../dist/css/jquery-ui.css" rel="stylesheet" />
+    <!-- Custom-multiple-select Css -->
+    <link href="../dist/css/mutiple-select.css" rel="stylesheet" />
+    <!-- Custom-select Css -->
+    <link href="../dist/css/custom-select.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="../dist/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="d-flex align-items-center justify-content-center">
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-center">
+        <!-- Main Card Start -->
+        <div class="card col-10 col-md-11 col-lg-8 col-xl-7 login-card my-5">
+          <div class="row">
+            <!-- Form Section Start -->
+            <div class="col-sm-12 col-md-6 bg-yellow auth-form d-flex justify-content-center flex-column wellcome-form">
+              <!-- Form Coperation Start -->
+                <form id="steps" class="position-relative">
+                  <h2>WELLCOME TO ETUDib</h2>
+                  <p class="message text-white">to continue please complete the information </p>
+
+                  <!-- Coperation Card Start -->
+                  <h6>type of Co-operation</h6>
+                  <div class="card d-flex flex-row align-items-center flex-wrap">
+                    <div>
+                        <input type="checkbox" value="" id="consulting" class="d-none" name="consulting">
+                          <label class="d-flex align-items-center" for="consulting">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Business consulting</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="engineering" class="d-none" name="engineering">
+                          <label class="d-flex align-items-center" for="engineering">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Engineering consulting</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="contracting" class="d-none" name='contracting'>
+                          <label class="d-flex align-items-center" for="contracting">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Contracting services</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="construction" class="d-none" name="construction">
+                          <label class="d-flex align-items-center" for="construction">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Construction services</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="financing" class="d-none" name="financing">
+                          <label class="d-flex align-items-center" for="financing">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Financing</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="supply" class="d-none" name="supply">
+                          <label class="d-flex align-items-center" for="supply">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Supply</label>
+                      </div>
+                  </div>
+                  <!-- Coperation Card End -->
+
+                  <!-- Coperation Card Start -->
+                  <h6>Activity category</h6>
+                  <div class="card d-flex flex-row align-items-center flex-wrap">
+                    <div>
+                        <input type="checkbox" value="" id="residental" class="d-none" name="residental">
+                          <label class="d-flex align-items-center" for="residental">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Residental places</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="industrial" class="d-none" name="industrial">
+                          <label class="d-flex align-items-center" for="industrial">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            industrial centers</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="commercial" class="d-none" name='commercial'>
+                          <label class="d-flex align-items-center" for="commercial">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Commercial places</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="others" class="d-none" name="others">
+                          <label class="d-flex align-items-center" for="others">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Others</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" value="" id="office" class="d-none" name="office">
+                          <label class="d-flex align-items-center" for="office">
+                            <img class="d-none" src="../dist/svg/checkIcon.svg" />
+                            Office places</label>
+                      </div>
+                  </div>
+                  <!-- Coperation Card End -->
+
+                    <button id='step-next' type="submit" class="btn w-100">Let's Start</button>
+
+                    </form>
+              <!-- Form Coperation End -->
+                
+              <!-- Form Services Start -->
+                    <form id='steps' class="position-relative services-form">
+                  <img src="../dist/svg/etudLogo.svg" alt="">
+                  <h3>Please select the service(s):</h3>
+
+                  <h5>Consulting services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Effective market">Effective market</option>
+                      <option value="business strategies">business strategies and competitor analysis</option>
+                    </select>
+                  </div>
+
+                  <h5>Contracting services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Excavation">Excavation</option>
+                      <option value="plumbing system">plumbing system</option>
+                    </select>
+                  </div>
+
+                  <h5>Financial services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Direct investment">Direct investment</option>
+                      <option value="Participaion in construction">Participaion in construction</option>
+                      <option value="Office places">Office places</option>
+                    </select>
+                  </div>
+
+                  <h5>Legal services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Legal contracts">Legal contracts</option>
+                      <option value="Follow up on lawsuits and complaints">Follow up on lawsuits and complaints</option>
+                    </select>
+                  </div>
+
+                  <h5>Engineering Services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Engineering">Engineering</option>
+                      <option value="Electrical Mechanical Engineering">Electrical Mechanical Engineering</option>
+                    </select>
+                  </div>
+
+                  <h5>Construction services</h5>
+                  <div class="multiple-select">
+                    <ul></ul>
+                    <select>
+                      <option value="Commercial places">Commercial places</option>
+                      <option value="Residential places">Residential places</option>
+                      <option value="Office places">Office places</option>
+                    </select>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center justify-content-between gx-2 position-absolute w-100">
+                    <button type="submit" class="btn" id='step-back'>Back</button>
+                    <button type="submit" class="btn" id='step-next'>Next</button>
+                  </div>
+                    </form>
+              <!-- Form Services End -->
+                
+              <!-- Form Certifications Start -->
+                <form id='steps' class="services-form" action="../index.html">
+                  <img src="../dist/svg/etudLogo.svg" alt="">
+                  <h3>You can Add your certification(s):</h3>
+
+                  <button type="button" class="w-25 add-modal"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Add</button>
+
+                  <div class="card custom-card ">
+                      <p class="header">Certifications</p>
+                      <div class="table-responsive">
+                  <table class="w-100">
+                    <tr>
+                      <td>Example 1</td>
+                      <td>Example 1</td>
+                      <td>Example 1</td>
+                      <td>&#10006;</td>
+                      <td>&#10145;</td>
+                    </tr>
+
+                    <tr>
+                      <td>Example 1</td>
+                      <td>Example 1</td>
+                      <td>Example 1</td>
+                      <td>&#10006;</td>
+                      <td>&#10145;</td>
+                    </tr>
+                  </table>
+                </div>
+                </div>
+                  <div class="d-flex flex-row align-items-center justify-content-between mt-5">
+                    <button type="button" class="btn" id='step-back'>Back</button>
+                    <button type="submit" class="btn">Finish</button>
+                  </div>
+
+                </form>
+              <!-- Form Certifications End -->
+                    
+
+            </div>
+            <!-- Form Section End -->
+
+            <!-- Step Section Start -->
+            <div class="col-6 bg-gray-primary profile-img position-relative authcode-img d-none d-md-block">
+
+            <!-- Stepper Circle Start -->
+                <div class="steps">
+                    <ul class="d-flex align-items-center justify-content-between">
+                        <li class="d-flex align-items-center justify-content-center active">1st STEP</li>
+                        <li class="d-flex align-items-center justify-content-center">2nd STEP</li>
+                        <li class="d-flex align-items-center justify-content-center">3rd STEP</li>
+                    </ul>
+                    <span></span>
+                </div>
+            <!-- Stepper Circle End -->
+
+            <!-- Stepper Images Start -->
+                <div id='step-icons' class="first-step-img">
+                  <img src="../dist/svg/monitor.svg" class="position-absolute monitor"/> 
+                  <img src="../dist/svg/etudLogo.svg" class="position-absolute etud"/> 
+                  <img src="../dist/svg/hands.svg" class="position-absolute hands-img"/> 
+                  <img src="../dist/svg/gearMd.svg" class="position-absolute md-gear"/> 
+                  <img src="../dist/svg/gearSm.svg" class="position-absolute sm-gear-left"/> 
+                  <img src="../dist/svg/gearSm.svg" class="position-absolute sm-gear-right"/> 
+                  <img src="../dist/svg/gearLg.svg" class="position-absolute lg-gear" /> 
+              </div>
+
+              <div id='step-icons' class="second-step-img">
+                <img src="../dist/svg/xsApartment.svg" class="position-absolute xs-apartment"/> 
+                <img src="../dist/svg/mdApartment.svg" class="position-absolute md-apartment"/> 
+                <img src="../dist/svg/smApartment.svg" class="position-absolute sm-apartment"/> 
+                <img src="../dist/svg/warningBars.svg" class="position-absolute warning-bars"/> 
+                <img src="../dist/svg/crane.svg" class="position-absolute crane"/> 
+                <img src="../dist/svg/warningCrane.svg" class="position-absolute warning-crane"/> 
+                <img src="../dist/svg/towerCrain.svg" class="position-absolute tower-crane"/> 
+                <img src="../dist/svg/load.svg" class="position-absolute load"/> 
+                <img src="../dist/svg/bigGear.svg" class="position-absolute big-gear"/> 
+                <img src="../dist/svg/smallGear.svg" class="position-absolute small-gear-top"/> 
+                <img src="../dist/svg/smallGear.svg" class="position-absolute small-gear-bottom"/> 
+            </div>
+
+            <div id='step-icons' class="third-step-img">
+              <img src="../dist/svg/medals.svg" class="position-absolute medals"/> 
+
+            </div>
+            <!-- Stepper Images End -->
+
+
+            </div>
+            <!-- Step Section End -->
+           
+          </div>
+        </div>
+        <!-- Main Card End -->
+      </div>
+
+    <!-- New Certification Modal Start -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="card custom-card w-100">
+              <div class="header form-header">
+                <p>Add Certification</p>
+                <span>&#10006;</span>
+                
+              </div>
+              <div class="body">
+                <form>
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                    <div class="form-item">
+                      <label for="title">Title</label>
+                      <input type='text' id='title' />
+                    </div>
+
+                    <div class="custom-select form-item">
+                      <label for="Type">Type</label>
+                      <select id="Type">
+                        <option>type</option>
+                        <option>type 2</option>
+                        <option>type 3</option>
+                        <option>type 4</option>
+                      </select>
+                    </div>
+
+
+                    <div class="form-item position-relative">
+                      <label for="certificationdatepicker">Certification date</label>
+                      <input type='text' id='certificationdatepicker' placeholder="----/--/--"/>
+                      <img src="../dist/svg/calendar.svg" class="position-absolute" />
+
+                    </div>
+
+                    <div class="form-item position-relative">
+                      <label for="validitydatepicker">validity date</label>
+                      <input type='text' id='validitydatepicker' placeholder="----/--/--"/>
+                      <img src="../dist/svg/calendar.svg" class="position-absolute" />
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-6">
+                    <div class="custom-file-input form-item">
+                      <label for="Image">Image</label>
+                      <label for="Image"></label>
+                      <input type='file' id='Image' />
+                      <label for="Image" class="d-flex align-items-center justify-content-center"><img src="../dist/svg/file.svg" /></label>
+                    </div>
+
+                    <div class="form-item description">
+                      <label for="Description">Description</label>
+                      <textarea  id='Description' rows="3.5"></textarea>
+                    </div>
+
+                    <div class="form-item add-certificate align-items-center justify-content-between">
+                      <label for=""></label>
+                      <button type="submit" class="btn">Add & Close</button>
+                      <button type="submit" class="btn">Add & New</button>
+                    </div>
+                  </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- New Certification Modal End -->
+
+    </section>
+    <!-- jquery -->
+    <script src="../dist/js/jquery.js"></script>
+    <!-- Bootstrap popperjs -->
+    <script src="../dist/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <!-- Multiple-select Js -->
+    <script src="../dist/js/multiple-select.js"></script>
+    <!-- Custom-select Js -->
+    <script src="../dist/js/custom-select.js"></script>
+    <!-- Jquery Ui datepicker -->
+    <script src="../dist/js/jquery-ui.js"></script>
+    <!-- Custom Stepper Js -->
+    <script src="../dist/js/custom-stepper.js"></script>
+    <!-- Custom etud Js -->
+    <script src="../dist/js/custom.js"></script>
+  </body>
+</html>

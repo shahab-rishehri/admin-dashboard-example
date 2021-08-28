@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etud-Admin</title>
+    <!-- Bootstrap Css -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom-select Css -->
+    <link href="../dist/css/custom-select.css" rel="stylesheet" />
+    <!-- Jquery-ui DatePicker Css -->
+    <link href="../dist/css/jquery-ui.css" rel="stylesheet" />
+    <!-- Custom-multiple-select Css -->
+    <link href="../dist/css/mutiple-select.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="../dist/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-center py-3 dashboard">
+        <!-- Main Card Start-->
+        <div class="col-11">
+            <div class="card">
+          <div class="row">
+            <!-- Navigation Menu Icon -->
+            <label for="menu-icon" class="menu-icon-button d-lg-none position-fixed">
+              <span></span>
+            </label>
+              <input type="checkbox" id='menu-icon' class="d-none menu-icon-checkbox">
+              <!-- SideBar Navigation Start -->
+            <div class="col-3 side-bar">
+              <img src="../dist/svg/etudLogo.svg" alt="">
+              <div class="d-flex flex-column align-items-center">
+              <figure><img src="../dist/svg/camera.svg" alt="profile"></figure>
+              <a href="#">Reset Password</a>
+            </div>
+            <nav class="text-center">
+                <a href="../index.html">Dashboard</a>
+            </nav>
+            </div>
+              <!-- SideBar Navigation End -->
+            <!-- Main Content Start -->
+            <div class="col-12 col-lg-9 content">
+                <form>
+
+            <!-- Personal Information Start -->
+                    <h5>Personal Information</h5>
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-5">
+                            <div class="input d-flex flex-row align-items-center">
+                                <label for="Full-Name">Full Name</label>
+                                <input type="text" value="Noora dehghan" id="Full-Name">
+                            </div>
+
+                            <div class="input d-flex flex-row align-items-center">
+                                <label for="Email">Email</label>
+                                <input type="email" value="noora.dehghan@gmail.com" id="Email">
+                            </div>
+
+                            <div class="input d-flex flex-row align-items-center">
+                                <label for="Mobile">Mobile Number</label>
+                                <input type="tel" value="09126880994" id="Mobile">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div class="input d-flex flex-row profile-file-input">
+                                <label for="Photo">Photo</label>
+                                <label for="Photo"></label>
+                                <input type="file" class="d-none" id='Photo'>
+                                <label for="Photo" class="d-flex align-items-center justify-content-center">Upload Your Photo</label>
+                            </div>
+
+                            <div class="input d-flex flex-row align-items-center">
+                                <label for="Films">Films</label>
+                                <input type="text" value="https://" id="Films">
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="input d-flex flex-row ">
+                                <label for="Description">Description</label>
+                                <textarea rows="5" id='Description'></textarea>
+                            </div>
+                        </div>
+                    </div>
+            <!-- Personal Information End -->
+
+            <!-- Certificates Accordion Start -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="certification-accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#certification-collapse" aria-expanded="true" aria-controls="certification-collapse">
+                                    Certificates
+                                </button>
+                              </h2>
+                              <div id="certification-collapse" class="accordion-collapse collapse show px-3" aria-labelledby="certification-accordion-header">
+                                <div class="accordion-body ">
+                                    <div class="card custom-card">
+                                        <div class="header accordion-header">
+                                            <br>
+                                        </div>
+                                        <div class="body table-responsive">
+                                          <table>
+                                              <thead>
+                                            <tr class="text-center">
+                                              <th>Title</th>
+                                              <th>Type</th>
+                                              <th>certification date</th>
+                                              <th>Validity date</th>
+                                              <th>Image</th>
+                                              <th>Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="text-center">
+                                              <td>Example 1</td>
+                                              <td>Example 1</td>
+                                              <td>0000/00/00</td>
+                                              <td>0000/00/00</td>
+                                              <td><figure><img src="../dist/img/user-picture.png" alt=""></figure></td>
+                                              <td>Example 1</td>
+                                              <td><a href="#">Delete</a></td>
+                                              <td><a href="#">Edit</a></td>
+
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td>Example 2</td>
+                                                <td>Example 2</td>
+                                                <td>0000/00/00</td>
+                                                <td>0000/00/00</td>
+                                                <td><figure><img src="../dist/img/user-picture.png" alt=""></figure></td>
+                                                <td>Example 2</td>
+                                                <td><a href="#">Delete</a></td>
+                                                <td><a href="#">Edit</a></td>
+  
+                                              </tr>
+
+                                              <tr class="text-center">
+                                                <td>Example 3</td>
+                                                <td>Example 3</td>
+                                                <td>0000/00/00</td>
+                                                <td>0000/00/00</td>
+                                                <td><figure><img src="../dist/img/user-picture.png" alt=""></figure></td>
+                                                <td>Example 3</td>
+                                                <td><a href="#">Delete</a></td>
+                                                <td><a href="#">Edit</a></td>
+  
+                                              </tr>
+                                            </tbody>
+                                          </table>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button type="button" class="btn add-btn-profile " data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Add New</button>
+                              </div>
+                        </div>
+                        </div>
+            <!-- Certificates Accordion End -->
+
+            <!-- Services Accordion Start -->
+                        <div class="accordion accordion-services">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="services-accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#services-collapse" aria-expanded="true" aria-controls="services-collapse">
+                                        Services
+                                    </button>
+                                  </h2>
+                                  <div id="services-collapse" class="accordion-collapse collapse show " aria-labelledby="services-accordion-header">
+                                    <div class="accordion-body">
+                                      <!-- Multiple-select Start -->
+                                        <div class="row justify-content-between ">
+                                            <div class="col-12 col-md-6">
+                                                <h5>Consulting services</h5>
+                                                <div class="multiple-select">
+                                                    <ul></ul>
+                                                    <select>
+                                                    <option value="Effective market">Effective market</option>
+                                                    <option value="business strategies">business strategies and competitor analysis</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <h5>Contracting services</h5>
+                                                <div class="multiple-select">
+                                                  <ul></ul>
+                                                  <select>
+                                                    <option value="Excavation">Excavation</option>
+                                                    <option value="plumbing system">plumbing system</option>
+                                                  </select>
+                                                </div>
+                              
+                                                <h5>Financial services</h5>
+                                                <div class="multiple-select">
+                                                  <ul></ul>
+                                                  <select>
+                                                    <option value="Direct investment">Direct investment</option>
+                                                    <option value="Participaion in construction">Participaion in construction</option>
+                                                    <option value="Office places">Office places</option>
+                                                  </select>
+                                                </div>
+                              
+                                                <h5>Legal services</h5>
+                                                <div class="multiple-select">
+                                                  <ul></ul>
+                                                  <select>
+                                                    <option value="Legal contracts">Legal contracts</option>
+                                                    <option value="Follow up on lawsuits and complaints">Follow up on lawsuits and complaints</option>
+                                                  </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-6">
+                                                <h5>Engineering Services</h5>
+                                                    <div class="multiple-select">
+                                                        <ul></ul>
+                                                        <select>
+                                                        <option value="Engineering">Engineering</option>
+                                                        <option value="Electrical Mechanical Engineering">Electrical Mechanical Engineering</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <h5>Construction services</h5>
+                                                    <div class="multiple-select">
+                                                        <ul></ul>
+                                                        <select>
+                                                        <option value="Commercial places">Commercial places</option>
+                                                        <option value="Residential places">Residential places</option>
+                                                        <option value="Office places">Office places</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <h5>Education services</h5>
+                                                    <div class="multiple-select">
+                                                        <ul></ul>
+                                                        <select>
+                                                        <option value="Commercial places">Commercial places</option>
+                                                        <option value="Residential places">Residential places</option>
+                                                        <option value="Office places">Office places</option>
+                                                        </select>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                      <!-- Multiple-select End -->
+                                    </div>
+                                  </div>
+                            </div>
+                            </div>
+            <!-- Services Accordion End -->
+                          
+                            <div class="d-flex justify-content-end px-3">
+                                <button type="submit" class="btn add-btn-profile">Save</button>
+                            </div>
+                </form>
+              <br />
+
+            </div>
+            <!-- Main Content End -->
+          </div>
+        </div>
+    </div>
+        <!-- Main Card End-->
+   
+      </div>
+
+        <!-- New Certification Modal Start -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="card custom-card w-100">
+                <div class="header form-header">
+                  <p>Add Certification</p>
+                  <span>&#10006;</span>
+                  
+                </div>
+                <div class="body">
+                  <form>
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                      <div class="form-item">
+                        <label for="title">Title</label>
+                        <input type='text' id='title' />
+                      </div>
+  
+                      <div class="custom-select form-item">
+                        <label for="Type">Type</label>
+                        <select id="Type">
+                          <option>type</option>
+                          <option>type 2</option>
+                          <option>type 3</option>
+                          <option>type 4</option>
+                        </select>
+                      </div>
+  
+  
+                      <div class="form-item position-relative">
+                        <label for="certificationdatepicker">Certification date</label>
+                        <input type='text' id='certificationdatepicker' placeholder="----/--/--"/>
+                        <img src="../dist/svg/calendar.svg" class="position-absolute" />
+  
+                      </div>
+  
+                      <div class="form-item position-relative">
+                        <label for="validitydatepicker">validity date</label>
+                        <input type='text' id='validitydatepicker' placeholder="----/--/--"/>
+                        <img src="../dist/svg/calendar.svg" class="position-absolute" />
+                      </div>
+                    </div>
+  
+                    <div class="col-12 col-lg-6">
+                      <div class="custom-file-input form-item">
+                        <label for="Image">Image</label>
+                        <label for="Image"></label>
+                        <input type='file' id='Image' />
+                        <label for="Image" class="d-flex align-items-center justify-content-center"><img src="../dist/svg/file.svg" /></label>
+                      </div>
+  
+                      <div class="form-item description">
+                        <label for="Description">Description</label>
+                        <textarea  id='Description' rows="3.5"></textarea>
+                      </div>
+  
+                      <div class="form-item add-certificate align-items-center justify-content-between">
+                        <label for=""></label>
+                        <button type="submit" class="btn">Add & Close</button>
+                        <button type="submit" class="btn">Add & New</button>
+                      </div>
+                    </div>
+  
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- New Certification Modal End -->
+
+
+    </div>
+    <!-- Bootstrap popperjs -->
+    <script src="../dist/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="../dist/js/jquery.js"></script>
+    <!-- Multiple-select Js -->
+    <script src="../dist/js/multiple-select.js"></script>
+    <!-- Custom-select Js -->
+    <script src="../dist/js/custom-select.js"></script>
+    <!-- Chart Js -->
+    <script src="./plugins/chart.min.js"></script>
+    <!-- Jquery Ui datepicker -->
+    <script src="../dist/js/jquery-ui.js"></script>
+    <!-- Custom etud Js -->
+    <script src="../dist/js/custom.js"></script>
+  </body>
+</html>

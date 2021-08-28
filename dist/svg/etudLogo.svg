@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101.424" height="35.031" viewBox="0 0 101.424 35.031">
+  <g id="Group_1" data-name="Group 1" transform="translate(-2419.485 -1100.952)">
+    <g id="ETUD">
+      <g id="Group_46" data-name="Group 46">
+        <path id="Path_558" data-name="Path 558" d="M2420.492,1124.146v-22.715h10.274v4.512h-5.577v4.422h5.58v4.329h-5.58v4.909h5.642v4.543Z" fill="#040505"/>
+        <path id="Path_559" data-name="Path 559" d="M2434.244,1105.853v-4.422l13.994.03v4.421h-4.727v18.293h-4.543v-18.293Z" fill="#040505"/>
+        <path id="Path_560" data-name="Path 560" d="M2456.043,1101.461v13.569c0,3.841,1.342,5.213,3.781,5.153,2.226-.031,3.11-1.86,3.11-3.753v-14.969h4.663v15.791a8.055,8.055,0,0,1-7.989,7.47c-4.572-.03-8.14-3.537-8.14-8.6v-14.667Z" fill="#040505"/>
+        <path id="Path_561" data-name="Path 561" d="M2470.985,1124.146v-22.715h5.123a11.348,11.348,0,0,1,11.372,11.16c.092,6.524-5.336,11.555-12.135,11.555Zm4.663-4.543a6.874,6.874,0,0,0,7.278-6.443c.013-.21.016-.42.01-.63a6.711,6.711,0,0,0-6.808-6.611h0a4.794,4.794,0,0,0-.48.024Z" fill="#040505"/>
+      </g>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M2505.535,1108.432v-7.348l15.155,15.447Z" fill="#696a6a"/>
+    <path id="Path_2" data-name="Path 2" d="M2520.69,1116.535l-15.155-15.447v-.066l15.374,8.064v7.57Z" fill="#5a5959"/>
+    <path id="Path_3" data-name="Path 3" d="M2505.535,1117.288v7.348l15.155-15.447Z" fill="#929191"/>
+    <path id="Path_4" data-name="Path 4" d="M2520.69,1109.185l-15.155,15.447v.065l15.374-8.063v-7.571Z" fill="#7a7979"/>
+    <path id="Path_5" data-name="Path 5" d="M2505.792,1108.361v-7.347l-15.155,15.446Z" fill="#ffc900"/>
+    <path id="Path_6" data-name="Path 6" d="M2490.637,1116.464l15.155-15.447v-.065l-15.374,8.063v7.571Z" fill="#fcaa00"/>
+    <path id="Path_7" data-name="Path 7" d="M2505.792,1117.217v7.346l-15.155-15.45Z" fill="#ffdb3f"/>
+    <path id="Path_8" data-name="Path 8" d="M2490.637,1109.117l15.155,15.45v.065l-15.374-8.063V1109Z" fill="#ffbb3c"/>
+    <g id="IDEAS_BUILT" data-name="IDEAS BUILT" style="isolation: isolate">
+      <text id="I" transform="translate(2419.485 1133.983)" fill="#ffc900" font-size="7.432" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">I</tspan></text>
+      <text id="DEAS_" data-name="DEAS " transform="translate(2421.462 1133.983)" fill="#030504" font-size="7.432" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">DEAS</tspan><tspan y="0" font-family="SegoeUI, Segoe UI" font-weight="400"> </tspan></text>
+      <text id="B" transform="translate(2441.21 1133.983)" fill="#ffc900" font-size="7.432" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">B</tspan></text>
+      <text id="UILT" transform="translate(2445.471 1133.983)" fill="#030504" font-size="7.432" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">UILT</tspan></text>
+    </g>
+  </g>
+</svg>
